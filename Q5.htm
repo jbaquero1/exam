@@ -32,7 +32,11 @@
             }
         </style>
         <script>
+        function add() {
+            var form1=document.getElementById("form1");
+            form1.result.value=
 
+        }
         </script>
     </head>
 
@@ -59,7 +63,7 @@
 
             </p>
             <p>
-                <input type="submit" name="Sum" value="SUM">
+                <input onclick="add" type="submit" name="Sum" value="SUM">
                 <input type="reset" name="reset" value="CLEAR">
             </p>
             <p>The sum is <span id="result"></span>.</p>
